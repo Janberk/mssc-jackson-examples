@@ -20,7 +20,7 @@ class BeerDtoTest extends BaseTest {
 
     @Test
     void testDeserializeDto() throws IOException {
-        String json = "{\"id\":\"ff5eb14a-7af0-4423-877e-20f3b50dca99\",\"beerName\":\"BeerName\"," +
+        String json = "{\"beerId\":\"ff5eb14a-7af0-4423-877e-20f3b50dca99\",\"beerName\":\"BeerName\"," +
                 "\"beerStyle\":\"Ale\",\"upc\":123123123123,\"price\":12.99,\"createdDate\":\"2020-11-28T23:07:26" +
                 ".8419221+01:00\",\"lastUpdatedDate\":\"2020-11-28T23:07:26.8419221+01:00\"}";
 
